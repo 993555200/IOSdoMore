@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		4BE77FE3289B7BE3004B8CEE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE77FE2289B7BE3004B8CEE /* AppDelegate.swift */; };
 		4BE77FE5289B7BE3004B8CEE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE77FE4289B7BE3004B8CEE /* SceneDelegate.swift */; };
-		4BE77FE7289B7BE3004B8CEE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE77FE6289B7BE3004B8CEE /* ViewController.swift */; };
 		4BE77FEA289B7BE3004B8CEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BE77FE8289B7BE3004B8CEE /* Main.storyboard */; };
 		4BE77FED289B7BE3004B8CEE /* IOSdoMore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4BE77FEB289B7BE3004B8CEE /* IOSdoMore.xcdatamodeld */; };
 		4BE77FEF289B7BE6004B8CEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BE77FEE289B7BE6004B8CEE /* Assets.xcassets */; };
@@ -17,6 +16,13 @@
 		4BE77FFD289B7BE6004B8CEE /* IOSdoMoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE77FFC289B7BE6004B8CEE /* IOSdoMoreTests.swift */; };
 		4BE78007289B7BE6004B8CEE /* IOSdoMoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE78006289B7BE6004B8CEE /* IOSdoMoreUITests.swift */; };
 		4BE78009289B7BE6004B8CEE /* IOSdoMoreUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE78008289B7BE6004B8CEE /* IOSdoMoreUITestsLaunchTests.swift */; };
+		4BE78019289B7CD8004B8CEE /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE78017289B7CD8004B8CEE /* HomeViewController.swift */; };
+		4BE7801A289B7CD8004B8CEE /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE78018289B7CD8004B8CEE /* HomeViewController.xib */; };
+		4BE7801D289B805B004B8CEE /* ScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE7801B289B805B004B8CEE /* ScrollViewController.swift */; };
+		4BE7801E289B805B004B8CEE /* ScrollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE7801C289B805B004B8CEE /* ScrollViewController.xib */; };
+		4BE78021289B8652004B8CEE /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE78020289B8652004B8CEE /* Item.swift */; };
+		4BE78025289B8739004B8CEE /* ItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BE78023289B8739004B8CEE /* ItemCollectionViewCell.swift */; };
+		4BE78026289B8739004B8CEE /* ItemCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4BE78024289B8739004B8CEE /* ItemCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +46,6 @@
 		4BE77FDF289B7BE3004B8CEE /* IOSdoMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSdoMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE77FE2289B7BE3004B8CEE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4BE77FE4289B7BE3004B8CEE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4BE77FE6289B7BE3004B8CEE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4BE77FE9289B7BE3004B8CEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4BE77FEC289B7BE3004B8CEE /* IOSdoMore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOSdoMore.xcdatamodel; sourceTree = "<group>"; };
 		4BE77FEE289B7BE6004B8CEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +56,13 @@
 		4BE78002289B7BE6004B8CEE /* IOSdoMoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSdoMoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4BE78006289B7BE6004B8CEE /* IOSdoMoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSdoMoreUITests.swift; sourceTree = "<group>"; };
 		4BE78008289B7BE6004B8CEE /* IOSdoMoreUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSdoMoreUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4BE78017289B7CD8004B8CEE /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4BE78018289B7CD8004B8CEE /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		4BE7801B289B805B004B8CEE /* ScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewController.swift; sourceTree = "<group>"; };
+		4BE7801C289B805B004B8CEE /* ScrollViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ScrollViewController.xib; sourceTree = "<group>"; };
+		4BE78020289B8652004B8CEE /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		4BE78023289B8739004B8CEE /* ItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		4BE78024289B8739004B8CEE /* ItemCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +113,12 @@
 		4BE77FE1289B7BE3004B8CEE /* IOSdoMore */ = {
 			isa = PBXGroup;
 			children = (
+				4BE78022289B8708004B8CEE /* cell */,
+				4BE7801F289B8637004B8CEE /* model */,
+				4BE78016289B7CAB004B8CEE /* controllers */,
+				4BE78015289B7C89004B8CEE /* apputils */,
 				4BE77FE2289B7BE3004B8CEE /* AppDelegate.swift */,
 				4BE77FE4289B7BE3004B8CEE /* SceneDelegate.swift */,
-				4BE77FE6289B7BE3004B8CEE /* ViewController.swift */,
-				4BE77FE8289B7BE3004B8CEE /* Main.storyboard */,
-				4BE77FEE289B7BE6004B8CEE /* Assets.xcassets */,
-				4BE77FF0289B7BE6004B8CEE /* LaunchScreen.storyboard */,
 				4BE77FF3289B7BE6004B8CEE /* Info.plist */,
 				4BE77FEB289B7BE3004B8CEE /* IOSdoMore.xcdatamodeld */,
 			);
@@ -128,6 +140,44 @@
 				4BE78008289B7BE6004B8CEE /* IOSdoMoreUITestsLaunchTests.swift */,
 			);
 			path = IOSdoMoreUITests;
+			sourceTree = "<group>";
+		};
+		4BE78015289B7C89004B8CEE /* apputils */ = {
+			isa = PBXGroup;
+			children = (
+				4BE77FF0289B7BE6004B8CEE /* LaunchScreen.storyboard */,
+				4BE77FE8289B7BE3004B8CEE /* Main.storyboard */,
+				4BE77FEE289B7BE6004B8CEE /* Assets.xcassets */,
+			);
+			path = apputils;
+			sourceTree = "<group>";
+		};
+		4BE78016289B7CAB004B8CEE /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4BE78017289B7CD8004B8CEE /* HomeViewController.swift */,
+				4BE78018289B7CD8004B8CEE /* HomeViewController.xib */,
+				4BE7801B289B805B004B8CEE /* ScrollViewController.swift */,
+				4BE7801C289B805B004B8CEE /* ScrollViewController.xib */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		4BE7801F289B8637004B8CEE /* model */ = {
+			isa = PBXGroup;
+			children = (
+				4BE78020289B8652004B8CEE /* Item.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		4BE78022289B8708004B8CEE /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				4BE78023289B8739004B8CEE /* ItemCollectionViewCell.swift */,
+				4BE78024289B8739004B8CEE /* ItemCollectionViewCell.xib */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,7 +286,10 @@
 			files = (
 				4BE77FF2289B7BE6004B8CEE /* LaunchScreen.storyboard in Resources */,
 				4BE77FEF289B7BE6004B8CEE /* Assets.xcassets in Resources */,
+				4BE7801E289B805B004B8CEE /* ScrollViewController.xib in Resources */,
+				4BE78026289B8739004B8CEE /* ItemCollectionViewCell.xib in Resources */,
 				4BE77FEA289B7BE3004B8CEE /* Main.storyboard in Resources */,
+				4BE7801A289B7CD8004B8CEE /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +314,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4BE77FE7289B7BE3004B8CEE /* ViewController.swift in Sources */,
 				4BE77FE3289B7BE3004B8CEE /* AppDelegate.swift in Sources */,
 				4BE77FE5289B7BE3004B8CEE /* SceneDelegate.swift in Sources */,
+				4BE7801D289B805B004B8CEE /* ScrollViewController.swift in Sources */,
 				4BE77FED289B7BE3004B8CEE /* IOSdoMore.xcdatamodeld in Sources */,
+				4BE78021289B8652004B8CEE /* Item.swift in Sources */,
+				4BE78019289B7CD8004B8CEE /* HomeViewController.swift in Sources */,
+				4BE78025289B8739004B8CEE /* ItemCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
